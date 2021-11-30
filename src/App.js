@@ -5,8 +5,8 @@ import Display from "./components/Display/Display";
 import Picker from "./components/Picker/Picker";
 
 function App() {
-	const [head, setHead] = useState("dog");
-	const [middle, setMiddle] = useState("fancy");
+	const [head, setHead] = useState("boar");
+	const [middle, setMiddle] = useState("blue");
 	const [newCatchphrase, setNewCatchphrase] = useState("");
 	const [catchphrases, setCatchphrase] = useState([]);
 	const handleClick = () => {

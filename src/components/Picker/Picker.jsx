@@ -10,7 +10,7 @@ export default function Picker({
 	handleClick,
 }) {
 	const headOptions = ["boar", "wolf", "deer", "elephant"];
-	const middleOptions = ["blue", "fancy", "pink", "red"];
+	const middleOptions = ["blue", "green", "brown"];
 
 	return (
 		<div>

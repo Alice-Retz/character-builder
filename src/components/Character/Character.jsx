@@ -9,8 +9,8 @@ export default function Character({ head, middle }) {
 					backgroundImage: `url(./${head}-head.png)`,
 					backgroundSize: "cover",
 					backgroundRepeat: "no-repeat",
-					height: 250,
-					width: 250,
+					height: 170,
+					width: 170,
 				}}></article>
 			<article
 				className='middle'
@@ -18,7 +18,7 @@ export default function Character({ head, middle }) {
 					backgroundImage: `url(./${middle}-middle.png)`,
 					backgroundSize: "cover",
 					backgroundRepeat: "no-repeat",
-					height: 150,
+					height: 170,
 					width: 150,
 				}}></article>
 		</section>
